@@ -1,7 +1,5 @@
 import base64
 import streamlit as st
-import plotly.express as px
-
 import numpy as np
 import pandas as pd
 import seaborn as sns
@@ -18,12 +16,9 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-from sklearn import metrics
-from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
-from sklearn.pipeline import Pipeline
 from sklearn.model_selection import GridSearchCV
-import tempfile
+
 st.set_page_config(layout="wide")
 st.sidebar.header(".")
 st.set_option('deprecation.showPyplotGlobalUse', False)
